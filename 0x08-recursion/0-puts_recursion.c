@@ -13,7 +13,7 @@ void _puts_recursion(char *c)
 		_putchar('\n');
 		return;
 	}
-	
+
 	_putchar(*c);
 	c++;
 	_puts_recursion(c);
