@@ -13,6 +13,6 @@ void _print_rev_recursion(char *c)
 	}
 	c++;
 	_print_rev_recursion(c);
-	s--;
+	c--;
 	_putchar(*c);
 }
