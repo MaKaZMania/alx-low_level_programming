@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
-  * main - Prints the multiplication of two args numbers
-  * @argc: argument count
-  * @argv: argument vector
+  * main - Prints the product of two numbers passed as arguments
+  * @argc: Argument count
+  * @argv: Argument vector
   *
   * Return: Always zero
   */

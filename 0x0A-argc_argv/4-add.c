@@ -4,9 +4,10 @@
 #include <string.h>
 
 /**
- * main - Adds positive number passed as arguments
+ * main - Prints sum of positive number passed as arguments
  * @argc: Argument counter
  * @argv: Argument vector
+ *
  * Return: Always zero
  */
 int main(int argc, char *argv[])
@@ -26,7 +27,7 @@ int main(int argc, char *argv[])
 				if (b[a] < 48 || b[a] > 57)
 				{
 					printf("Error\n");
-					retunr (1);
+					return (1);
 				}
 			}
 
