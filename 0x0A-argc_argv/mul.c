@@ -3,11 +3,12 @@
 #include <stdlib.h>
 
 /**
- * main - Multiplies two numbers received as arguments
- * @argc: Argument count
- * @argv: Argument vector
- * Return: Always zero
- */
+  * main - Prints the multiplication of two args numbers
+  * @argc: argument count
+  * @argv: argument vector
+  *
+  * Return: Always zero
+  */
 int main(int argc, char *argv[])
 {
 	int n1 = 0, n2 = 0;
@@ -24,5 +25,5 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	return (0)
+	return (0);
 }
