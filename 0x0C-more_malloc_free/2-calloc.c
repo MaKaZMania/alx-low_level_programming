@@ -8,6 +8,7 @@
   *
   * Return: malloc
   */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	int i = 0, l = 0;
@@ -27,6 +28,5 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		p[i] = 0;
 		i++;
 	}
-
 	return (p);
 }
